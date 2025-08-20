@@ -1,0 +1,22 @@
+{
+  "n_clusters": 60,
+  "train_ratio": 0.7,
+  "seed": 9999,
+  "max_router": 1,
+  "top_k": 4,
+  "beta": 9.0,
+  "max_workers": 4,
+  "cluster_batch_size": 1000,
+  "max_tokens": 30000,
+  "embedding_model": "Qwen3-Embedding-8B",
+  "embedding_base_url": "http://172.30.5.197:8000/v1",
+  "embedding_api_key": "inplaceholder",
+  "cost_sensitivity": 0.62,
+  "performance_weight": 0.38,
+  "min_accuracy_threshold": 0.0,
+  "budget_limit": null,
+  "excluded_models": [],
+  "excluded_datasets": ["aime","healthbench"],
+  "dataset_exclusion_mode": "soft",
+  "export_cluster": null
+}

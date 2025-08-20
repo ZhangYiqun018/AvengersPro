@@ -180,7 +180,7 @@ class WeightAblation:
             json.dump(final_results, f, indent=2, ensure_ascii=False)
         
         # Create concise results export
-        concise_results_path = self._export_concise_results(results, baseline_data)
+        concise_results_path = self._export_concise_results(results, baseline_data, base_config)
         if not quiet:
             self.logger.info(f"Concise results exported to {concise_results_path}")
         
@@ -752,13 +752,15 @@ class WeightAblation:
         return results
     
     def _export_concise_results(self, results: List[Dict[str, Any]], 
-                               baseline_data: Optional[Dict[str, Any]] = None) -> str:
+                               baseline_data: Optional[Dict[str, Any]] = None,
+                               base_config: Optional[Dict[str, Any]] = None) -> str:
         """
         Export concise weight ablation results to a separate file.
         
         Args:
             results: List of experimental results
             baseline_data: Optional baseline model data
+            base_config: Optional base configuration containing seed info
             
         Returns:
             Path to exported concise results file
@@ -812,8 +814,10 @@ class WeightAblation:
         with open(concise_path, 'w', encoding='utf-8') as f:
             json.dump(concise_data, f, indent=2, ensure_ascii=False)
         
-        # Also create a CSV version for easy analysis
-        csv_path = self.output_dir / "results" / "weight_ablation_results.csv"
+        # Also create a CSV version for easy analysis with seed in filename
+        seed = base_config.get('seed', 42) if base_config else 42
+        csv_filename = f"weight_ablation_results_seed{seed}.csv"
+        csv_path = self.output_dir / "results" / csv_filename
         self._export_csv_results(concise_data, csv_path)
         
         return str(concise_path)

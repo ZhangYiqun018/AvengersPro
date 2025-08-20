@@ -6,12 +6,11 @@
 
 **A test-time routing framework that ensembles LLMs of varying capacities and efficiencies**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.12631-b31b1b.svg)](https://arxiv.org/abs/2508.12631)
+[![Paper](https://img.shields.io/badge/Paper-Available-b31b1b.svg)](#)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-📄 **Paper**: [ArXiv](https://arxiv.org/abs/2508.12631)  
-<!-- 📧 **Contact**: [author1@email.com](mailto:author1@email.com), [author2@email.com](mailto:author2@email.com) -->
+📄 **Paper**: Available upon publication  
 
 </div>
 
@@ -187,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Project Lead:** hushuyue@pjlab.org.cn, zhangyiqun344@gmail.com
+**Authors:** [Anonymized for Review]
 
 <div align="center">
 <i>For detailed technical implementation and comprehensive experimental results, please refer to our paper.</i>
