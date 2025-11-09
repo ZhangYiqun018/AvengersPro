@@ -18,9 +18,9 @@
 ---
 ## News
 
-[2025-11-08] 🎉 AAAI 2026 (Oral) — Our paper (![Avengers](https://arxiv.org/abs/2505.19797)) was accepted as an Oral presentation at AAAI 2026!
+[2025-11-08] 🎉 AAAI 2026 (Oral) — Our paper ([Avengers](https://arxiv.org/abs/2505.19797)) was accepted as an Oral presentation at AAAI 2026!
 
-[2025-10-19] 🎉 DAI 2026 - Our paper (![AvengersPro](https://arxiv.org/abs/2508.12631)) was accepted at DAI 2026!
+[2025-10-19] 🎉 DAI 2026 - Our paper ([AvengersPro](https://arxiv.org/abs/2508.12631)) was accepted at DAI 2026!
 
 ## Abstract
 
