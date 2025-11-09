@@ -16,6 +16,10 @@
 </div>
 
 ---
+## News
+
+[2025-11-08] 🎉 AAAI 2026 (Oral) — Our paper (![Avengers](https://arxiv.org/abs/2505.19797)) was accepted as an Oral presentation at AAAI 2026!
+[2025-10-19] 🎉 DAI 2026 - Our paper (![AvengersPro](https://arxiv.org/abs/2508.12631)) was accepted at DAI 2026!
 
 ## Abstract
 
@@ -203,5 +207,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   author={Zhang, Yiqun and Li, Hao and Chen, Jianhao and Zhang, Hangfan and Ye, Peng and Bai, Lei and Hu, Shuyue},
   journal={arXiv preprint arXiv:2508.12631},
   year={2025}
+}
+
+@misc{zhang2025avengerssimplerecipeuniting,
+      title={The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants}, 
+      author={Yiqun Zhang and Hao Li and Chenxu Wang and Linyao Chen and Qiaosheng Zhang and Peng Ye and Shi Feng and Daling Wang and Zhen Wang and Xinrun Wang and Jia Xu and Lei Bai and Wanli Ouyang and Shuyue Hu},
+      year={2025},
+      eprint={2505.19797},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.19797}, 
 }
 ```
