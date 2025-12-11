@@ -17,6 +17,8 @@
 
 ---
 ## News
+[2025-12-10] 🎉 OpenRouterBench - We have open source all data into OpenRouterBench ([huggingface](https://huggingface.co/datasets/NPULH/OpenRouterBench), [GitHub](https://github.com/ynulihao/OpenRouterBench))
+
 [2025-11-23] 🎉 DAI 2025 Best Paper Award - Our paper ([AvengersPro](https://arxiv.org/abs/2508.12631)) has received the **Best Paper Award**!!!
 
 [2025-11-08] 🎉 AAAI 2026 (Oral) — Our paper ([Avengers](https://arxiv.org/abs/2505.19797)) was accepted as an Oral presentation at **AAAI 2026**!
